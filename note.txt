@@ -1,0 +1,2 @@
+The resources such as images can be channged and create in items.json by viewer/user, 
+the nodee modules and pakages must be installed on your end

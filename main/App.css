@@ -1,0 +1,112 @@
+    img {
+        object-fit: cover;
+    }
+    
+    body {
+        background: linear-gradient( to left, #0486f7, #144651);
+        overflow-x: hidden;
+    }
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-size: 0.97em;
+        transition: all 2 ease-out;
+    }
+    
+    .highlight {
+        background-color: rgba(216, 213, 213, 0.56)
+        /* Adjust the highlight color as needed */
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    nav {
+        background: linear-gradient(to right, lightblue, blue);
+        height: 10vh;
+        position: fixed;
+        width: 99vw;
+        top: 0px;
+    }
+    
+    #logo-name {
+        position: relative;
+        top: 10%;
+        left: 10%;
+        color: rgb(255, 0, 191);
+        font-size: 1.5rem;
+    }
+    
+    #searchbar {
+        background-color: lightcyan;
+        height: 5vh;
+        width: 26vw;
+        display: flex;
+        position: absolute;
+        top: 2.5vh;
+        left: 50vw;
+        text-align: center;
+    }
+    
+    #searchbutton {
+        height: 5vh;
+        width: 10vw;
+        display: flex;
+        position: absolute;
+        top: 2.5vh;
+        left: 80vw;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    
+    .typesOfClothes {
+        height: 20vh;
+        width: 100vw;
+        margin-top: 10vh;
+        display: flex;
+        align-items: center;
+        overflow: scroll hidden;
+    }
+    
+    .type {
+        margin: 7vw;
+        background-color: rgb(0, 187, 255);
+        display: flex;
+    }
+    
+    .type>img {
+        height: 10vh;
+        width: 10vw;
+    }
+    
+    .displayClothes>div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .displayClothes>div>div>div>img {
+        height: 12vh;
+        width: 10vw;
+    }
+    
+    .displayClothes>div>div {
+        min-height: 10vh;
+        height: 12vh;
+        margin: 12vh;
+        width: 10vw;
+    }
+    
+    .typesOfClothes::-webkit-scrollbar {
+        width: 2rem;
+    }
+    
+    .typesOfClothes::-webkit-scrollbar-track {
+        background: orange;
+    }
+    
+    .typesOfClothes::-webkit-scrollbar-thumb {
+        background: linear-gradient(to left, orange, red, orange);
+    }

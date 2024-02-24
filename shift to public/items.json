@@ -1,0 +1,84 @@
+{
+  "clothes": {
+    "menTopwear": [
+      {
+        "shirt": {
+          "img": "./shirt blue.jpg",
+          "description": "This is a shirt"
+        }
+      },
+      {
+        "Tshirt": {
+          "img": "./white tshirt.avif",
+          "description": "This is a T-shirt"
+        }
+      },
+      {
+        "denimJacket": {
+          "img": "./denim jacket.jpg",
+          "description": "This is a denim jacket"
+        }
+      },
+      {
+        "leatherJacket": {
+          "img": "./funk leather.jpg",
+          "description": "This is a cool leather jacket for you"
+        }
+      },
+      {
+        "blazer": {
+          "img": "./man-blue-suit.jpg",
+          "description": "This is a formal blazer for your formal wear"
+        }
+      },
+      {
+        "hoodie": {
+          "img": "./hoodie.jpg",
+          "description": "Cool hoodie for this winter"
+        }
+      }
+    ],
+    "menBottomwear": [
+      {
+        "jeans": {
+          "img": "./jeans.jpg",
+          "description": "This is a great pair of jeans"
+        }
+      },
+      {
+        "lower": {
+          "img": "./lower.webp",
+          "description": "This is comfortable lower"
+        }
+      }
+    ],
+    "womenTopwear": [
+      {
+        "top": {
+          "img": "./black top.avif",
+          "description": "This is a black top"
+        }
+      },
+      {
+        "nightSuit": {
+          "img": "./women nightsuit.jpg",
+          "description": "This is a comfortable night suit just for you"
+        }
+      }
+    ],
+    "womenBottomwear": [
+      {
+        "leggings": {
+          "img": "./leggings.avif",
+          "description": "This is leggings"
+        }
+      },
+      {
+        "skirt": {
+          "img": "./skirt.jpeg",
+          "description": "Pretty skirt for pretty girls"
+        }
+      }
+    ]
+  }
+}
